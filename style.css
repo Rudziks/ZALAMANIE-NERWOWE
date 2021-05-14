@@ -22,8 +22,8 @@
 }
 
 .m-h{
-    border: black solid 1px;
-    width: 600px;
+    border: rgb(128, 128, 128) solid 1px;
+    width: 700px;
     margin-top: 5rem;
     margin-left: 18rem;
     height: 110px;
@@ -41,7 +41,8 @@
 
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 175vh;
     grid-gap: 6rem;
     margin-left: 1.6rem;
     margin-right: 1.6rem;
@@ -50,7 +51,7 @@
 
 .gi{
     height: 200px;
-    width: auto;
+    width: 550px;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.726);
 }
 
