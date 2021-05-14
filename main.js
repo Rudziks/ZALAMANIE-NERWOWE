@@ -1,3 +1,12 @@
+const navStyle = document.querySelector("nav")
+navStyle.setAttribute('class', 'm-n')
+
+const liStyle = document.querySelectorAll("li");
+liStyle.forEach(element=>{(element.setAttribute('class', 'm-f'))});
+
+const liSecStyle = document.querySelectorAll("li")[1];
+liSecStyle.setAttribute('class','b-d m-f')
+
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
 
